@@ -28,10 +28,12 @@ class Song
   end
 
   def self.artist_count
-    artist_count = {self.artists => self.count}
+    artist_count = {}
+    self.artists => self.count
   end
 
   def self.genre_count
-    genre_count = {self.genres => self.count}
+    genre_count = {}
+    self.genres => self.count
   end
 end
